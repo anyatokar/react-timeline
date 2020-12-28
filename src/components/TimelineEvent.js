@@ -17,7 +17,7 @@ const TimelineEvent = (props) => {
 
 TimelineEvent.propTypes = {
   person: PropTypes.string.isRequired,
-  status: PropTypes.string,
+  status: PropTypes.string.isRequired,
 };
 
 export default TimelineEvent;
